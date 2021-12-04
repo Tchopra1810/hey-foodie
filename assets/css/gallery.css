@@ -1,0 +1,184 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	line-height: 1.5px;
+	box-sizing: border-box;
+	margin: 0;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff6f1;
+
+	
+}
+.ml-auto{
+	margin-left: auto !important;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-weight: 400;
+}
+a:hover{
+	color: #FF7400;
+}
+.nav-item a{
+	color: #000;
+}
+.nav-item a:hover{
+	color: #FF7400;
+}
+
+ul{
+	list-style-type: none;
+}
+.navbar{
+	padding: 1rem 2rem;
+	min-height: 8vh;
+	background: #f6f1ee;
+}
+.navbar .navbar-brand a{
+	padding: .5rem 0;
+	display: block;
+	text-decoration: none;
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5rem;
+	color: #e74c3c;
+}
+.navbar-toggler{
+	background: #e74c3c;
+	border: none;
+	padding: 10px 16px;
+}
+.navbar-toggler span{
+	display: block;
+	width: 22px;
+    height: 2px;
+    border: 1px;
+	background: #fff;
+}
+.navbar-toggler span + span{
+	margin-top: 4px;
+	width: 18px;
+	margin-left: 4px;
+
+}
+.navbar-toggler span + span + span{
+	width: 10px;
+	margin-left: 10px;	
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 1rem 0.5rem;
+	font-size: 1.0rem;
+	position: relative;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	border-bottom: 4px solid #e74c3c;
+}
+.navbar-expand-lg .navbar-nav .nav-link .active{
+	border-bottom: 4px solid #e74c3c;
+	color: #e74c3c;
+}
+.dropdown-menu{
+	background-color: #f6f1ee;
+	border: 2px solid #e74c3c;
+	text-align: center;
+
+
+}
+.dropdown-menu  a{
+	padding: 1rem 0.5rem;
+	font-size: 1.2rem;
+	position: relative;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+	color: #000;
+}
+.dropdown-menu  a:hover{
+	background-color: #6E7B60;
+	color: #fff;
+}
+
+.navbar-nav button{
+	padding: 0.8rem 0;
+}
+.navbar-nav .btn{
+	background-color: #e74c3c;
+	color: #fff;
+	border-radius: 0;
+	padding: 0.8rem 1rem;
+	font-size: 0.8rem;
+	margin-top: -5px;
+	margin-left: 10px;
+}
+.navbar-nav .btn:hover{
+	background-color: #012639;
+}
+.heading{
+	margin-top: 80px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	
+}
+.heading h3{
+	font-size: 4rem;
+
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+	box-sizing: none;
+}
+footer .foot{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	font-family: 'Playfair Display', serif;
+}
+.foot .fadd{
+	text-align: center;
+}
+.foot .fadd p{
+	padding: 0.5rem 0rem;
+}
+.foot .fcopy p{
+font-size: 3rem;
+margin-top: 40px;
+}
+.foot .social-media{
+	margin: 2rem 1rem;
+	margin-left: 100px;
+}
+.social-media img{
+	width: 30px;
+    height: 30px;
+}
+.foot .owner{
+	text-align: centero;
+}
+.foot .owner p{
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+@media only screen and (max-width: 767px)
+{
+	.dream img{
+		width: 400px;
+	}
+	.foot .social-media{
+	margin-left: 130px;
+}
+}
+
+
