@@ -23,6 +23,7 @@ a{
 	color: #000;
 	text-decoration: none;
 	font-weight: 400;
+	    font-family: 'Playfair Display', serif;
 }
 a:hover{
 	color: #FF7400;
@@ -207,81 +208,69 @@ ul{
 }
 
 
-footer{
-	height: 10vh;
-    background-color: #fbece3;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: 60px;
-    display: block;
-    position: fixed;
+#footer-wrapper {
+    position: relative;
+    background-color: #0b0e13;
+    background-image: url(../../assets/images/contact/footer.png), url(../../assets/images/contact/footer.png);
+    background-position: left 60px, right 60px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 65px;
 }
 footer .foot{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Playfair Display', serif;
+    height: 30vh;
+    margin-left: -150px;
 }
-
-footer .foot .social-media{
-	padding: 20px 5px;
-}
-.foot .social-media ul{
-	display: inline-block;
-}
-.social-media ul li{
-	display: inline-block;
-}
-.social-media ul li img{
-	height: 25px;
-	width: 25px;
-}
-
 .foot .fadd{
-	padding: 30px 5px;
-	font-family: 'Crimson Pro', serif;
-	font-size: 1.1rem;
+    text-align: center;
 }
-.foot .fphn{
-	padding: 30px 5px;
-	font-family: 'Crimson Pro', serif;
-	font-size: 1.1rem;
+.foot .fadd p{
+    padding: 0.5rem 0rem;
+    color: #fff;
 }
-.foot .fcopy{
-	padding: 30px 5px;
-	font-family: 'Crimson Pro', serif;
-	font-size: 1.1rem;
+.foot .fcopy p{
+font-size: 3rem;
+margin-top: 40px;
+color: #fff;
+}
+.foot .social-media{
+    margin: 2rem 1rem;
+    margin-left: 90px;
+
+}
+.social-media img{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 .foot .owner{
-	padding: 30px 5px;
-	font-family: 'Crimson Pro', serif;
-	font-size: 1.1rem;
-	color: #075c49;
+    text-align: centero;
 }
-@media only screen and (max-width: 767px){
-	footer{
-	height: 16vh;
-	position: fixed;
+.foot .owner p{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: #fff;
 }
-footer .foot .social-media {
-        padding: 5px 0px 0px 0px;
+@media only screen and (max-width: 767px)
+{
+    .dream img{
+        width: 400px;
+    }
+    .foot .social-media{
+    margin-left: 90px;
 }
-
-.foot .fadd {
-    padding: 0px px;
-    margin-top: -30px;
-}
-.foot .fphn {
-    padding: 5px 2px;
-     margin-top: -30px;
-}
-.foot .fcopy {
-    padding: 5px 2px;
-     margin-top: -30px;
-}
-.foot .owner {
-    padding: 5px 2px;
-     margin-top: -10px;
+footer .foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+    height: 70vh;
+    margin-left: 0px;
 }
 }

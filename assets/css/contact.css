@@ -23,6 +23,7 @@ a{
     color: #000;
     text-decoration: none;
     font-weight: 400;
+    font-family: 'Playfair Display', serif;
 }
 a:hover{
     color: #FF7400;
@@ -300,10 +301,9 @@ footer .foot{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 100px;
     font-family: 'Playfair Display', serif;
     height: 30vh;
-    margin-left: -50px;
+    margin-left: -150px;
 }
 .foot .fadd{
     text-align: center;
@@ -342,7 +342,7 @@ color: #fff;
         width: 400px;
     }
     .foot .social-media{
-    margin-left: 130px;
+    margin-left: 90px;
 }
 footer .foot{
     display: flex;
